@@ -11,6 +11,7 @@
 
     <modules>
         <module>Lesson40E-Store</module>
+        <module>Lesson41SpringFormsValidation</module>
         <module>Lesson44Hibernate</module>
     </modules>
 
@@ -21,12 +22,6 @@
     </properties>
 
     <dependencies>
-            <dependency>
-                <groupId>com.github.sviperll</groupId>
-                <artifactId>maven-profiledep-extension</artifactId>
-                <version>0.24-beta2</version>
-            </dependency>
-
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
