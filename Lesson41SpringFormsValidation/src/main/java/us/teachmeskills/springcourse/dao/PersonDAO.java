@@ -1,7 +1,7 @@
-package ru.alishev.springcourse.dao;
+package us.teachmeskills.springcourse.dao;
 
 import org.springframework.stereotype.Component;
-import ru.alishev.springcourse.models.Person;
+import us.teachmeskills.springcourse.models.Person;
 
 import java.util.ArrayList;
 import java.util.List;

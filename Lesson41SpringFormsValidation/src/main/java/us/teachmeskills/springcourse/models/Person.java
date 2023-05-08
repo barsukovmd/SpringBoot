@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.models;
+package us.teachmeskills.springcourse.models;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;
