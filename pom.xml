@@ -12,6 +12,7 @@
     <modules>
         <module>Lesson40E-Store</module>
         <module>Lesson41SpringFormsValidation</module>
+        <module>Lesson42SpringJdbcTemplate</module>
         <module>Lesson44Hibernate</module>
     </modules>
 
