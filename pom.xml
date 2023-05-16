@@ -15,6 +15,9 @@
         <module>Lesson42SpringJdbcTemplate</module>
         <module>Lesson43StarterSpringJdbcTemplate</module>
         <module>Lesson44Hibernate</module>
+        <module>Lesson44SpringBootTestStarters</module>
+        <module>Lesson45</module>
+        <module>Lesson46</module>
     </modules>
 
     <properties>
@@ -24,22 +27,22 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.6.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.2.2.Final</version>
         </dependency>
     </dependencies>
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-                <testFailureIgnore>true</testFailureIgnore>
-            </configuration>
-        </plugin>
         </plugins>
     </build>
 </project>
