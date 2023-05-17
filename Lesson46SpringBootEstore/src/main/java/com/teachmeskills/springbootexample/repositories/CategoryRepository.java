@@ -10,7 +10,7 @@ public interface CategoryRepository extends CrudRepository<Category, Integer> {
 
     Category findById(int id);
 
-    @Query("from Category")
+    @Query("from Category ")
     List<Category> findAllCategories();
 //    List<Category> findAllByRating(int rating, Pageable pageable);
 

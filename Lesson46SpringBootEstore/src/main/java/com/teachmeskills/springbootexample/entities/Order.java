@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
@@ -15,13 +15,13 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @SuperBuilder
-@Table(name = "orders")
+@Table(schema = "eshop", name = "orders")
 @Entity
 public class Order extends BaseEntity {
     @Column(name = "PRICE")
     private int price;
     @Column(name = "DATE")
-    private Date date;
+    private LocalDate date;
     @ManyToOne
     private User user;
     @ManyToMany

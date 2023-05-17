@@ -15,7 +15,7 @@ import java.util.Objects;
 @RequiredArgsConstructor
 @SuperBuilder
 @Entity
-@Table(name = "products")
+@Table(schema = "eshop", name = "products")
 public class Product extends BaseEntity {
     @Column(name = "NAME")
     private String name;

@@ -15,7 +15,8 @@ import java.util.List;
 @RequiredArgsConstructor
 @SuperBuilder
 @Entity
-@Table(name = "users")
+@Table(schema = "eshop", name = "users")
+
 public class User extends BaseEntity {
     @Column(name = "NAME")
     private String name;
