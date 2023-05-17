@@ -18,7 +18,7 @@ import java.util.List;
 @Table(schema = "eshop", name = "orders")
 @Entity
 public class Order extends BaseEntity {
-    @Column(name = "PRICE")
+    @Column(name = "price")
     private int price;
     @Column(name = "DATE")
     private LocalDate date;

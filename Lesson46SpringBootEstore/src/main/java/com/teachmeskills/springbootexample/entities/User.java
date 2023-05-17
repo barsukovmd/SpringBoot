@@ -18,21 +18,21 @@ import java.util.List;
 @Table(schema = "eshop", name = "users")
 
 public class User extends BaseEntity {
-    @Column(name = "NAME")
+    @Column(name = "name")
     private String name;
-    @Column(name = "SURNAME")
+    @Column(name = "surname")
     private String surname;
-    @Column(name = "EMAIL")
+    @Column(name = "email")
     private String email;
     @PasswordConstraint
-    @Column(name = "PASSWORD")
+    @Column(name = "password")
     private String password;
-    @Column(name = "BIRTHDAY")
+    @Column(name = "birthday")
     private Date birthday;
-    @Column(name = "BALANCE")
+    @Column(name = "balance")
     private int balance;
     @OneToMany(mappedBy = "user", orphanRemoval = true, cascade = CascadeType.ALL)
-    private List<Order> order;
+    private List<Order> orders;
 
 //    @Override
 //    public boolean equals(Object o) {

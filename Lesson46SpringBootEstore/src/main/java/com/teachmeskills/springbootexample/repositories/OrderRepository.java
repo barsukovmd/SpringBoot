@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public interface OrderRepository extends CrudRepository<Order, Integer> {
-    @Query("from Orders")
+    @Query("from Order")
     Order findById(int id);
 
     List<Order> findByDate(LocalDateTime date);

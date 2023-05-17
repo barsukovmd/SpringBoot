@@ -17,16 +17,16 @@ import java.util.Objects;
 @Entity
 @Table(schema = "eshop", name = "products")
 public class Product extends BaseEntity {
-    @Column(name = "NAME")
+    @Column(name = "name")
     private String name;
-    @Column(name = "DESCRIPTION")
+    @Column(name = "description")
     private String description;
-    @Column(name = "PRICE")
+    @Column(name = "price")
     private int price;
-    @Column(name = "IMAGE_PATH")
+    @Column(name = "image_path")
     private String imagePath;
     @ManyToOne(optional = false)
-    @JoinColumn(name = "CATEGORY_ID", nullable = false)
+    @JoinColumn(name = "category_id", nullable = false)
     private Category category;
 
     @ManyToMany(mappedBy = "productList", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
