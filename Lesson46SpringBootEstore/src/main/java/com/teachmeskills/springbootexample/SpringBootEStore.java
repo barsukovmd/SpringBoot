@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.teachmeskills.springbootexample.repositories")
+@SpringBootApplication
 public class SpringBootEStore {
     private final Environment env;
 
