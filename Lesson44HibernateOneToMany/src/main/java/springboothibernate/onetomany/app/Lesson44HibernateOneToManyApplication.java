@@ -7,8 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springboothibernate.onetomany.models.Item;
 import springboothibernate.onetomany.models.Person;
 
-import java.util.List;
-
 @SpringBootApplication
 public class Lesson44HibernateOneToManyApplication {
 
@@ -19,10 +17,11 @@ public class Lesson44HibernateOneToManyApplication {
             session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Person person = session.get(Person.class, 3);
-            System.out.println(person);
-            List<Item> itemList = person.getItemList();
-            System.out.println(itemList);
+            Item item = session.get(Item.class, 5);
+            System.out.println(item);
+
+            Person owner = item.getOwner();
+            System.out.println(owner);
 
             session.getTransaction().commit();
         }
