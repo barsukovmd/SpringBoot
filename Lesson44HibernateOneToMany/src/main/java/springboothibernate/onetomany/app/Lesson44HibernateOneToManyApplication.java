@@ -30,9 +30,11 @@ public class Lesson44HibernateOneToManyApplication {
 //            session.persist(person);
 //            session.persist(newItem);
 
-            Person person = session.get(Person.class, 7);
-            session.remove(person);
-            person.getItems().forEach(item -> item.setOwner(null));
+            Person person = session.get(Person.class, 4);
+            Item item = session.get(Item.class, 1);
+            item.setOwner(person);
+            person.getItems().add(item);
+
             session.getTransaction().commit();
         }
     }
