@@ -9,6 +9,7 @@ import lombok.*;
 @Setter
 @ToString
 @Entity
+@Builder
 @Table(schema = "test", name = "item")
 public class Item {
     @Id

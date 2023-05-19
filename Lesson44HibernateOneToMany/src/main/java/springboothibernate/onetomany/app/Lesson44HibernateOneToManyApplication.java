@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springboothibernate.onetomany.models.Item;
 import springboothibernate.onetomany.models.Person;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 @SpringBootApplication
 public class Lesson44HibernateOneToManyApplication {
 
@@ -17,10 +20,17 @@ public class Lesson44HibernateOneToManyApplication {
             session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Person person = session.get(Person.class, 2);
-            Item newItem = new Item(person, "Item from Hibernate");
-            person.getItems().add(newItem);
+            Person person = Person.builder()
+                    .age(30)
+                    .name("Serega hibernate 2.0")
+                    .build();
+            Item newItem = Item.builder()
+                    .itemName("Refrigerator hibernate 2.0")
+                    .owner(person)//указали и здесь !!!
+                    .build();
+            person.setItems(new ArrayList<>(Collections.singletonList(newItem)));//указали и здесь !!!
 
+            session.persist(person);
             session.persist(newItem);
 
             session.getTransaction().commit();
