@@ -3,6 +3,8 @@ package springboothibernate.onetomany.models;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @Entity
 @Table(schema = "test", name = "person")
 @Getter
@@ -19,6 +21,9 @@ public class Person {
     private String name;
     @Column(name = "age")
     private int age;
+
+    @OneToMany(mappedBy = "owner")
+    private List<Item> itemList;
 
     @Override
     public String toString() {
