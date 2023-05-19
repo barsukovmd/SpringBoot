@@ -28,6 +28,7 @@ public class Lesson44HibernateOneToManyApplication {
             person.addItems(new Item("item 2"));
             person.addItems(new Item("item 3"));
 
+            session.persist(person);
 
             session.getTransaction().commit();
         }
