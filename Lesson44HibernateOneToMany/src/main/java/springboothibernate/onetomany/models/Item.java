@@ -1,11 +1,13 @@
 package springboothibernate.onetomany.models;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
+@Setter
+@ToString
 @Entity
 @Table(schema = "test", name = "item")
 public class Item {
@@ -13,8 +15,10 @@ public class Item {
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @Column(name = "person_id")
-    private int personId;
+
+    @JoinColumn(name = "person_id", referencedColumnName = "id")
+    @ManyToOne
+    private Person owner;
 
     @Column(name = "item_name")
     private String itemName;
