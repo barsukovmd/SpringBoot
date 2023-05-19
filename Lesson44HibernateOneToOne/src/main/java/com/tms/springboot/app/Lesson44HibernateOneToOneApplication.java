@@ -17,16 +17,9 @@ public class Lesson44HibernateOneToOneApplication {
 			session = sessionFactory.getCurrentSession();
 			session.beginTransaction();
 
-
-			Person person = Person.builder()
-					.age(30)
-					.name("Vadim")
-					.build();
-
-			Passport passport = Passport.builder()
-					.passportNumber(4363576)
-					.owner(person)
-					.build();
+			Person person = new Person("Yauhen", 25);
+			Passport passport = new Passport(person, 49853745);
+			person.setPassport(passport);
 
 			session.persist(person);
 			session.persist(passport);

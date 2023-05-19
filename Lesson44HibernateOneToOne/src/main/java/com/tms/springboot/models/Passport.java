@@ -18,7 +18,7 @@ import java.util.Objects;
 public class Passport implements Serializable {
     @Id
     @OneToOne
-    @JoinColumn(name = "person_id", referencedColumnName = "id")
+    @JoinColumn(name = "person_id", referencedColumnName = "id", unique = true)
     private Person owner;
 
     @Column(name = "passport_number")
