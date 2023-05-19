@@ -23,4 +23,8 @@ public class Item {
     @Column(name = "item_name")
     private String itemName;
 
+    public Item(Person owner, String itemName) {
+        this.owner = owner;
+        this.itemName = itemName;
+    }
 }

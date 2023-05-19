@@ -17,11 +17,11 @@ public class Lesson44HibernateOneToManyApplication {
             session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Item item = session.get(Item.class, 5);
-            System.out.println(item);
+            Person person = session.get(Person.class, 2);
+            Item newItem = new Item(person, "Item from Hibernate");
+            person.getItems().add(newItem);
 
-            Person owner = item.getOwner();
-            System.out.println(owner);
+            session.persist(newItem);
 
             session.getTransaction().commit();
         }

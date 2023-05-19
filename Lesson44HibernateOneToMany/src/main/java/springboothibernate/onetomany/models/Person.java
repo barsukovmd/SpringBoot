@@ -23,7 +23,8 @@ public class Person {
     private int age;
 
     @OneToMany(mappedBy = "owner")
-    private List<Item> itemList;
+    private List<Item> items;
+
 
     @Override
     public String toString() {
