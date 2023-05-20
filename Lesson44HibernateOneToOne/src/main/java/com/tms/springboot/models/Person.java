@@ -9,6 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 @Table(schema = "passport", name = "person")
+@ToString
 public class Person {
     @Id
     @Column(name = "id", unique = true)
@@ -17,6 +18,7 @@ public class Person {
 
     @Column(name = "name")
     private String name;
+
     @Column(name = "age")
     private int age;
 
@@ -29,12 +31,8 @@ public class Person {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", passport=" + passport +
-                '}';
+    public void setPassport(Passport passport) {
+        this.passport = passport;
+        passport.setOwner(this);
     }
 }

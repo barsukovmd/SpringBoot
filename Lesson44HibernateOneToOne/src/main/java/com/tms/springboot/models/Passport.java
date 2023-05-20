@@ -2,10 +2,8 @@ package com.tms.springboot.models;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.Hibernate;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 @Entity
 @Getter
@@ -17,23 +15,19 @@ import java.util.Objects;
 @ToString
 public class Passport implements Serializable {
     @Id
-    @OneToOne
-    @JoinColumn(name = "person_id", referencedColumnName = "id", unique = true)
-    private Person owner;
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
 
     @Column(name = "passport_number")
     private int passportNumber;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || Hibernate.getClass(this) != Hibernate.getClass(o)) return false;
-        Passport passport = (Passport) o;
-        return getOwner() != null && Objects.equals(getOwner(), passport.getOwner());
-    }
+    @OneToOne
+    @JoinColumn(name = "person_id", referencedColumnName = "id", unique = true)
+    private Person owner;
 
-    @Override
-    public int hashCode() {
-        return getClass().hashCode();
+
+    public Passport(int passportNumber) {
+        this.passportNumber = passportNumber;
     }
 }
