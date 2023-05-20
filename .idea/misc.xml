@@ -6,10 +6,21 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Lesson40E-Store/pom.xml" />
+        <option value="$PROJECT_DIR$/TableTest/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44DBTestHibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44HibernateOneToMany/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Calculator/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
