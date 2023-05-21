@@ -45,9 +45,4 @@ public class Actor {
                 ", movies=" + movies +
                 '}';
     }
-
-    @Override
-    public int hashCode() {
-        return getClass().hashCode();
-    }
 }

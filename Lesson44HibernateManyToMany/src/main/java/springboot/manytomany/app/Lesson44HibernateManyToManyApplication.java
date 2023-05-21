@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springboot.manytomany.models.Actor;
 import springboot.manytomany.models.Movie;
 
+import java.util.ArrayList;
+import java.util.Collections;
 @SpringBootApplication
 public class Lesson44HibernateManyToManyApplication {
 
@@ -16,15 +18,17 @@ public class Lesson44HibernateManyToManyApplication {
         try (SessionFactory sessionFactory = configuration.buildSessionFactory()) {
             session = sessionFactory.getCurrentSession();
             session.beginTransaction();
-
-
             Movie movie = new Movie("My movie", 2023);
+            Actor actor = new Actor("Nikolai", 20);
+            actor.setMovies(new ArrayList<>(Collections.singletonList(movie)));
 
-
-            session.persist(movie);
+            session.save(movie);
+            session.save(actor);
 
             session.getTransaction().commit();
 
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 
