@@ -25,9 +25,12 @@ public class Person {
 
     @NotEmpty(message = "Name should not be empty")
     @Size(min = 2, max = 30, message = "Name should be between 2 and 30 characters")
-
     @Column(name = "name")
     private String name;
+
+
+    @NotEmpty(message = "Name should not be empty")
+    @Size(min = 2, max = 30, message = "Name should be between 2 and 30 characters")
     @Column(name = "surname")
     private String surname;
 
@@ -40,7 +43,7 @@ public class Person {
 
     @NotEmpty(message = "Email should not be empty")
     @Email(message = "Email should be valid")
-    @Column(name = "email")
+    @Column(name = "email", unique = true)
     private String email;
 
 }
