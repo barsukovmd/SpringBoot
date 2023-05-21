@@ -9,6 +9,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -45,5 +48,11 @@ public class Person {
     @Email(message = "Email should be valid")
     @Column(name = "email", unique = true)
     private String email;
+
+    @Column(name = "date_of_birth")
+    @DateTimeFormat(pattern = "MM/dd/yyyy")
+    @Temporal(TemporalType.DATE)
+
+    private LocalDate localDate;
 
 }
