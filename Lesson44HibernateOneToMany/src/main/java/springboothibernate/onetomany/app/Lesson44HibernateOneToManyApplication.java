@@ -19,12 +19,29 @@ public class Lesson44HibernateOneToManyApplication {
             session.beginTransaction();
 
             Person person = session.get(Person.class, 1);
-            System.out.println("Получили человека");
+            System.out.println("Получили человека и закрыли сессию");
+            session.getTransaction().commit();
+
+
+            session = sessionFactory.getCurrentSession();
+            session.beginTransaction();
+            System.out.println("Внутри второй транзакции");
+            person = session.merge(person);
             Hibernate.initialize(person.getItems());
+            session.getTransaction().commit();
+
+            session = sessionFactory.getCurrentSession();
+            session.beginTransaction();
+            System.out.println("Внутри третьей транзакции");
+//            List<Item> itemList = session.createQuery("select i from Item i where i.owner.id=:personId", Item.class)
+//                    .setParameter(person.getId(), "personId")
+//                    .getResultList();
+//            System.out.println(itemList);
 
             session.getTransaction().commit();
+
             System.out.println("вне сессии");
-            System.out.println(person.getItems());
+//            System.out.println(person.getItems());
         }
     }
 
