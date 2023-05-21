@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/TableTest/pom.xml" />
         <option value="$PROJECT_DIR$/Lesson44DBTestHibernate/pom.xml" />
         <option value="$PROJECT_DIR$/Lesson44HibernateOneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44HibernateManyToMany/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

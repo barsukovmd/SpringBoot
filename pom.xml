@@ -17,6 +17,7 @@
         <module>Lesson44Hibernate</module>
         <module>Lesson44HibernateOneToMany</module>
         <module>Lesson44HibernateOneToOne</module>
+        <module>Lesson44HibernateManyToMany</module>
         <module>Lesson44SpringBootTestStarters</module>
         <module>Lesson45</module>
         <module>Lesson46SpringBootEstore</module>
