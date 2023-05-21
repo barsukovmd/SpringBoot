@@ -1,7 +1,10 @@
 package springboot.manytomany.models;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 
@@ -11,7 +14,6 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@EqualsAndHashCode
 public class Movie {
     @Id
     @Column(name = "id")
@@ -24,7 +26,7 @@ public class Movie {
     @Column(name = "year_of_production")
     private int yearOfProduction;
 
-    @ManyToMany(mappedBy = "movies")
+    @ManyToMany(mappedBy = "movies", fetch = FetchType.LAZY)
     private List<Actor> actors;
 
     public Movie(String name, int yearOfProduction) {
