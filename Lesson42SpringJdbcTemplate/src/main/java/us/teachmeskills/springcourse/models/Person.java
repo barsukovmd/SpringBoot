@@ -52,7 +52,10 @@ public class Person {
     @Column(name = "date_of_birth")
     @DateTimeFormat(pattern = "MM/dd/yyyy")
     @Temporal(TemporalType.DATE)
-
     private LocalDate localDate;
+
+    @Column(name = "created_at")
+    @Temporal(TemporalType.TIMESTAMP)
+    private LocalDate createdAt;
 
 }
