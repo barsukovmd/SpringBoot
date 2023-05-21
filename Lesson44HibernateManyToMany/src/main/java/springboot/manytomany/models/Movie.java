@@ -27,7 +27,10 @@ public class Movie {
     private int yearOfProduction;
 
     @ManyToMany(mappedBy = "movies", fetch = FetchType.LAZY)
+    // many-to-one или one-to-one (по-умолчанию EAGER НЕ ЛЕНИВАЯ загрузка)
+    //one-to-many или many-to-many (по-умолчанию LAZY ЛЕНИВАЯ загрузка)
     private List<Actor> actors;
+
 
     public Movie(String name, int yearOfProduction) {
         this.name = name;

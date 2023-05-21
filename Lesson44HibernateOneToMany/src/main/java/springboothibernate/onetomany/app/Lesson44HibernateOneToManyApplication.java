@@ -1,5 +1,6 @@
 package springboothibernate.onetomany.app;
 
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -17,20 +18,13 @@ public class Lesson44HibernateOneToManyApplication {
             session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-
-            Person person = Person.builder()
-                    .age(21)
-                    .name("Person Cascade 2.0")
-                    .build();
-
-
-            person.addItems(new Item("item 1"));
-            person.addItems(new Item("item 2"));
-            person.addItems(new Item("item 3"));
-
-            session.persist(person);
+            Person person = session.get(Person.class, 1);
+            System.out.println("Получили человека");
+            Hibernate.initialize(person.getItems());
 
             session.getTransaction().commit();
+            System.out.println("вне сессии");
+            System.out.println(person.getItems());
         }
     }
 
