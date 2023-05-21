@@ -1,18 +1,16 @@
 package springboot.manytomany.models;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
 @Entity
-@Table(name = "actor")
+@Table(schema = "actors_movies", name = "actor")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
+@EqualsAndHashCode
 @Setter
 public class Actor {
     @Id
@@ -44,5 +42,10 @@ public class Actor {
                 ", age=" + age +
                 ", movies=" + movies +
                 '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return getClass().hashCode();
     }
 }

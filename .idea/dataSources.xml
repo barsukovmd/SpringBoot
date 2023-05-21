@@ -8,7 +8,7 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/c18-onl2022</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Lesson44Hibernate/Hibernate" uuid="4c1845db-48b1-426a-8607-44e64540bd4e">
+    <data-source source="LOCAL" name="Lesson44Hibernate/Hibernate" uuid="72288afb-34ad-4eda-976f-3301047586ef">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
