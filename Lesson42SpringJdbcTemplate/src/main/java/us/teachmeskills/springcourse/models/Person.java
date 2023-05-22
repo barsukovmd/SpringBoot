@@ -49,10 +49,17 @@ public class Person {
     @Column(name = "email", unique = true)
     private String email;
 
+    @Enumerated(EnumType.ORDINAL)
+    //EnumType.ORDINAL сохранение в таблицу будет в числовом варианте (от 0 - первое enum значение, до указанного значения)
+    //!!! если изменить местами enum, то значения не поменяются, поэтому нужно быть аккуратным
+
+    // EnumType.STRING сохранение в таблицу будет в формате String
+    private Mood mood;
+
     @Column(name = "date_of_birth")
     @DateTimeFormat(pattern = "MM/dd/yyyy")
     @Temporal(TemporalType.DATE)
-    private LocalDate localDate;
+    private LocalDate dateOfBirth;
 
     @Column(name = "created_at")
     @Temporal(TemporalType.TIMESTAMP)
