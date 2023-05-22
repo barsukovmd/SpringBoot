@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import springboothibernate.onetomany.models.Person;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Component
 public class PersonDao {
@@ -54,8 +56,8 @@ public class PersonDao {
     @Transactional
     public void testNPlus1() {
         Session session = entityManager.unwrap(Session.class);
-        List<Person> people = session.createQuery("select p from Person p LEFT join fetch p.items", Person.class)
-                .getResultList();
+        Set<Person> people = new HashSet<>(session.createQuery("select p from Person p LEFT join fetch p.items", Person.class)
+                .getResultList());
 
         for (Person person : people) {
             System.out.println("Person " + person.getName() + " has " + person.getItems());
