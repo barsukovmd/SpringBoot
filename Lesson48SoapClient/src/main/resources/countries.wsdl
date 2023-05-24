@@ -1,9 +1,9 @@
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.baeldung.com/springsoap/gen"
-                  targetNamespace="http://www.baeldung.com/springsoap/gen">
+                  targetNamespace="https://www.baeldung.com/springsoap/gen">
     <wsdl:types>
         <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-                   targetNamespace="http://www.baeldung.com/springsoap/gen">
+                   targetNamespace="https://www.baeldung.com/springsoap/gen">
             <xs:element name="getCountryRequest">
                 <xs:complexType>
                     <xs:sequence>

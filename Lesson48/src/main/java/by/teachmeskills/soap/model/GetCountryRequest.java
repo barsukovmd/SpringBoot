@@ -8,7 +8,7 @@
 
 package by.teachmeskills.soap.model;
 
-import javax.xml.bind.annotation.*;
+import jakarta.xml.bind.annotation.*;
 
 
 /**
