@@ -6,8 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import springboothibernate.onetomany.dao.PersonDao;
 import springboothibernate.onetomany.models.Person;
-import springboothibernate.onetomany.personDao.PersonDao;
 import springboothibernate.onetomany.services.PeopleService;
 
 

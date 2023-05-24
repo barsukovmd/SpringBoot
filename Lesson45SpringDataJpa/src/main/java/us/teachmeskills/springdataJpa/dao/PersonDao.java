@@ -1,11 +1,11 @@
-package springboothibernate.onetomany.personDao;
+package us.teachmeskills.springdataJpa.dao;
 
 import jakarta.persistence.EntityManager;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import springboothibernate.onetomany.models.Person;
+import us.teachmeskills.springdataJpa.models.Person;
 
 import java.util.HashSet;
 import java.util.List;

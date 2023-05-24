@@ -21,7 +21,8 @@
         <module>Lesson44HibernateManyToMany</module>
         <module>Lesson44SpringBootTestStarters</module>
         <module>Lesson45</module>
-        <module>Lesson46SpringBootEstore</module>
+        <module>Lesson45SpringDataJpa</module>
+        <module>Lesson46SpringBootE-store</module>
 
     </modules>
 
