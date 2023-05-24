@@ -23,7 +23,9 @@
         <module>Lesson45</module>
         <module>Lesson45SpringDataJpa</module>
         <module>Lesson46SpringBootE-store</module>
-
+        <module>Lesson47</module>
+        <module>Lesson48</module>
+        <module>Lesson48SoapClient</module>
     </modules>
 
     <properties>

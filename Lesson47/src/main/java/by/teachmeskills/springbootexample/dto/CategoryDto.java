@@ -1,12 +1,12 @@
 package by.teachmeskills.springbootexample.dto;
 
 import com.opencsv.bean.CsvBindByName;
+import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.Min;
 import java.util.List;
 
 @Builder

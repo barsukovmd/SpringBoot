@@ -9,9 +9,12 @@ import java.util.List;
 
 @Repository
 public interface ItemsRepository extends JpaRepository<ItemsRepository, Integer> {
+
     List<Item> findByItemName(String itemName);
 
     //person.getItems() равнозначно|
+
     List<Item> findByOwner(Person owner);
+
 
 }
