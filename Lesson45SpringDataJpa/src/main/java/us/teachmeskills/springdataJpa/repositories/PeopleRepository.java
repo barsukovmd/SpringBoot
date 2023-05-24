@@ -8,6 +8,17 @@ import java.util.List;
 
 @Repository
 public interface PeopleRepository extends JpaRepository<Person, Integer> {
-    List<Person> findByName(String name);
+    List<Person> findByName(String itemName);
+
+    //person.getItems() равнозначно|
+    List<Person> findByOwner(Person owner);
+
+    List<Person> findByName0rderByAge(String name);
+
+    List<Person> findByEmail(String email);
+
+    List<Person> findByNameStartingWith(String startingWith);
+
+    List<Person> findByNameOrEmail(String name, String email);
 
 }

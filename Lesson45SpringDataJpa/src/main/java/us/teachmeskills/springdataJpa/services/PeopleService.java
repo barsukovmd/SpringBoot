@@ -43,4 +43,37 @@ public class PeopleService {
     public void delete(int id) {
         peopleRepository.deleteById(id);
     }
+
+    //кастомные сервисы по нахождению
+    public List<Person> findByName(String name) {
+        //название метода должно соответствовать названию поля по которому
+        //производим поиск
+        return peopleRepository.findByName(name);
+    }
+
+    public List<Person> findByNameOrderByAge(String name) {
+        return peopleRepository.findByName0rderByAge(name);
+    }
+
+    public List<Person> findByEmail(String email) {
+        return peopleRepository.findByEmail(email);
+    }
+
+    ;
+
+    public List<Person> findByNameStartingWith(String startingWith) {
+        return peopleRepository.findByNameStartingWith(startingWith);
+    }
+
+    ;
+
+    public List<Person> findByNameOrEmail(String name, String email) {
+        return peopleRepository.findByNameOrEmail(name, email);
+    }
+
+    ;
+
+    public void test() {
+        System.out.println("Testing here with debug. Inside Hibernate transaction");
+    }
 }

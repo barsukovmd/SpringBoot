@@ -13,4 +13,5 @@ public interface ItemsRepository extends JpaRepository<ItemsRepository, Integer>
 
     //person.getItems() равнозначно|
     List<Item> findByOwner(Person owner);
+
 }
