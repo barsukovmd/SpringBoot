@@ -6,7 +6,6 @@ import org.springframework.transaction.annotation.Transactional;
 import springboothibernate.onetomany.models.Person;
 import springboothibernate.onetomany.repositories.PeopleRepository;
 
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -36,8 +35,6 @@ public class PeopleService {
 
     @Transactional
     public void save(Person person) {
-        person.setCreatedAt(LocalDate.now());
-        person.setMood(HAPPY);
         peopleRepository.save(person);
     }
 

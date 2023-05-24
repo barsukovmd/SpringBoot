@@ -27,7 +27,7 @@ import java.util.Properties;
 @Configuration
 @ComponentScan("us.teachmeskills.springdataJpa")
 @EnableWebMvc
-@PropertySource("classpath:hibernate.properties")
+@PropertySource("classpath:application.properties")
 @EnableJpaRepositories("us.teachmeskills.springdataJpa.repositories")
 @EnableTransactionManagement
 public class SpringConfig implements WebMvcConfigurer {
