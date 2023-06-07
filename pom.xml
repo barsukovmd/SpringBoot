@@ -26,6 +26,8 @@
         <module>Lesson47</module>
         <module>Lesson48</module>
         <module>Lesson48SoapClient</module>
+        <module>Lesson49</module>
+        <module>Lesson45RestAPIConsumer</module>
     </modules>
 
     <properties>
@@ -53,11 +55,42 @@
             <artifactId>log4j-api</artifactId>
             <version>2.20.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-core -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>9.19.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-maven-plugin -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-maven-plugin</artifactId>
+            <version>9.19.1</version>
+        </dependency>
 
     </dependencies>
     <build>
-        <defaultGoal>clean package</defaultGoal>
         <plugins>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>9.19.1</version>
+                <configuration>
+                    <user>postgres</user>
+                    <password>Barsukov28071992</password>
+                    <schemas>
+                        <schema>c18-onl2022</schema>
+                    </schemas>
+                    <url>jdbc:postgresql://localhost:5432/c18-onl2022</url>
+                </configuration>
+            </plugin>
         </plugins>
+        <defaultGoal>clean package</defaultGoal>
     </build>
 </project>

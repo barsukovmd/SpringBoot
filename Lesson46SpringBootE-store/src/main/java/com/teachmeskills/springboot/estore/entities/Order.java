@@ -2,7 +2,6 @@ package com.teachmeskills.springboot.estore.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
@@ -13,7 +12,6 @@ import java.util.List;
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 @SuperBuilder
 @Table(schema = "eshop", name = "orders")
 @Entity
@@ -33,5 +31,4 @@ public class Order extends BaseEntity {
     @JoinTable(name = "orders_products", joinColumns = @JoinColumn(name = "ORDER_ID"),
             inverseJoinColumns = @JoinColumn(name = "PRODUCT_ID"))
     private List<Product> productList;
-
 }
