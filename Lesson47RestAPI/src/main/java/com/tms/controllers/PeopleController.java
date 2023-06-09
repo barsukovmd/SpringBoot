@@ -64,6 +64,7 @@ public class PeopleController {
         return new ResponseEntity<>(personNotFoundErrorResponse, HttpStatus.NOT_FOUND); //NOT_FOUND - 404 cтатус
     }
 
+    @ExceptionHandler
     private ResponseEntity<PersonErrorResponse> handleException(PersonNotCreatedException exception) {
         PersonErrorResponse personNotCreatedErrorResponse = new PersonErrorResponse(
                 exception.getMessage(),
