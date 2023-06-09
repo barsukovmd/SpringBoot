@@ -2,6 +2,7 @@ package com.tms.services;
 
 import com.tms.models.Person;
 import com.tms.repositories.PeopleRepository;
+import com.tms.utils.PersonNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,7 +26,12 @@ public class PeopleService {
 
     public Person findOne(int id) {
         Optional<Person> foundOne = peopleRepository.findById(id);
-        return foundOne.orElse(null);
+        return foundOne.orElseThrow(PersonNotFoundException::new);
+    }
+
+    @Transactional
+    public void save(Person person) {
+        peopleRepository.save(person);
     }
 
 }
