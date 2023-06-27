@@ -1,43 +1,49 @@
 package com.tms.controllers;
-
+import com.tms.dto.PersonDTO;
 import com.tms.models.Person;
 import com.tms.services.PeopleService;
 import com.tms.utils.PersonErrorResponse;
 import com.tms.utils.PersonNotCreatedException;
 import com.tms.utils.PersonNotFoundException;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
-@RestController
+@Controller
 @RequestMapping("/people")
 public class PeopleController {
     private final PeopleService peopleService;
+    private final ModelMapper modelMapper;
 
     @Autowired
-    public PeopleController(PeopleService peopleService) {
+    public PeopleController(PeopleService peopleService, ModelMapper modelMapper) {
         this.peopleService = peopleService;
+        this.modelMapper = modelMapper;
     }
 
-
     @GetMapping("/all")
-    public List<Person> getPeople() {
-        return peopleService.findAll();//JACKSON автоматически конвертирует объекты в JSON
+    public List<PersonDTO> getPeople() {
+        return peopleService.findAll().stream()
+                .map(this::convertToPersonDTO)
+                .collect(Collectors.toList());
     }
 
     @GetMapping("/{id}")
-    public Person getPerson(@PathVariable("id") int id) {
-        return peopleService.findOne(id);
+    public PersonDTO getPerson(@PathVariable("id") int id) {
+        return convertToPersonDTO(peopleService.findOne(id));
     }
 
     @PostMapping("/add")
-    public ResponseEntity<HttpStatus> create(@RequestBody @Validated Person person,
+    public ResponseEntity<HttpStatus> create(@RequestBody @Validated PersonDTO personDTO,
                                              BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             StringBuilder errMessage = new StringBuilder();
@@ -50,7 +56,7 @@ public class PeopleController {
             }
             throw new PersonNotCreatedException(errMessage.toString());
         }
-        peopleService.save(person);
+        peopleService.save(convertToPerson(personDTO));
         // отправляем НТТР ответ с пустым телом и со статусом 200
         return ResponseEntity.ok(HttpStatus.OK);
     }
@@ -71,6 +77,14 @@ public class PeopleController {
                 System.currentTimeMillis()
         );
         return new ResponseEntity<>(personNotCreatedErrorResponse, HttpStatus.BAD_REQUEST);
+    }
+
+    private Person convertToPerson(PersonDTO personDTO) {
+        return modelMapper.map(personDTO, Person.class);
+    }
+
+    private PersonDTO convertToPersonDTO(Person person) {
+        return modelMapper.map(person, PersonDTO.class);
     }
 }
 

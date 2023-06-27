@@ -10,10 +10,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Setter
 @Getter
 @Entity
-@Table(schema = "test", name = "person")
+@Table(schema = "testAPI", name = "person")
 @NoArgsConstructor
 @AllArgsConstructor
 public class Person {
@@ -33,9 +35,11 @@ public class Person {
     @NotEmpty(message = "Email should not be empty")
     private String email;
 
-    public Person(String name, int age, String email) {
-        this.name = name;
-        this.age = age;
-        this.email = email;
-    }
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
+    @Column(name = "created_who")
+    @NotEmpty
+    private String createdWho;
 }

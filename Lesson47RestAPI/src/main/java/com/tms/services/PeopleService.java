@@ -33,5 +33,4 @@ public class PeopleService {
     public void save(Person person) {
         peopleRepository.save(person);
     }
-
 }
