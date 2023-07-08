@@ -11,7 +11,7 @@
     <groupId>us.barsukov</groupId>
     <artifactId>Lesson44SpringBootTestStarters</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot</name>
+
     <properties>
         <java.version>20</java.version>
     </properties>

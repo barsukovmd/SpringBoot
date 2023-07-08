@@ -1,14 +1,12 @@
 package springboothibernate.onetomany.app;
 
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import springboothibernate.onetomany.models.Item;
 import springboothibernate.onetomany.models.Person;
-
-import java.util.ArrayList;
-import java.util.Collections;
 
 @SpringBootApplication
 public class Lesson44HibernateOneToManyApplication {
@@ -20,20 +18,30 @@ public class Lesson44HibernateOneToManyApplication {
             session = sessionFactory.getCurrentSession();
             session.beginTransaction();
 
-            Person person = Person.builder()
-                    .age(30)
-                    .name("Serega hibernate 2.0")
-                    .build();
-            Item newItem = Item.builder()
-                    .itemName("Refrigerator hibernate 2.0")
-                    .owner(person)//указали и здесь !!!
-                    .build();
-            person.setItems(new ArrayList<>(Collections.singletonList(newItem)));//указали и здесь !!!
+            Person person = session.get(Person.class, 1);
+            System.out.println("Получили человека и закрыли сессию");
+            session.getTransaction().commit();
 
-            session.persist(person);
-            session.persist(newItem);
+
+            session = sessionFactory.getCurrentSession();
+            session.beginTransaction();
+            System.out.println("Внутри второй транзакции");
+            person = session.merge(person);
+            Hibernate.initialize(person.getItems());
+            session.getTransaction().commit();
+
+            session = sessionFactory.getCurrentSession();
+            session.beginTransaction();
+            System.out.println("Внутри третьей транзакции");
+//            List<Item> itemList = session.createQuery("select i from Item i where i.owner.id=:personId", Item.class)
+//                    .setParameter(person.getId(), "personId")
+//                    .getResultList();
+//            System.out.println(itemList);
 
             session.getTransaction().commit();
+
+            System.out.println("вне сессии");
+//            System.out.println(person.getItems());
         }
     }
 

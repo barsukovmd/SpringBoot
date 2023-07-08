@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -9,11 +12,33 @@
         <option value="$PROJECT_DIR$/TableTest/pom.xml" />
         <option value="$PROJECT_DIR$/Lesson44DBTestHibernate/pom.xml" />
         <option value="$PROJECT_DIR$/Lesson44HibernateOneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44HibernateManyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson45SpringDataJpa/pom.xml" />
+        <option value="$PROJECT_DIR$/E-storeFinal/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Calculator/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson40E-Store/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson41SpringFormsValidation/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson42SpringJdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson43StarterSpringJdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44DBTestHibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44Hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44HibernateManyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44HibernateOneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44HibernateOneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson44SpringBootTestStarters/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson45/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson45RestAPIConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson45SpringDataJpa/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson46SpringBootE-store/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson47/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson47RestAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson48/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson48SoapClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson49/pom.xml" />
       </set>
     </option>
   </component>

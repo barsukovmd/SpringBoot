@@ -17,15 +17,14 @@ public class Item {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @JoinColumn(name = "person_id", referencedColumnName = "id")
+    @JoinColumn(name = "person_id", referencedColumnName = "id")//внешний ключ
     @ManyToOne
     private Person owner;
 
     @Column(name = "item_name")
     private String itemName;
 
-    public Item(Person owner, String itemName) {
-        this.owner = owner;
+    public Item(String itemName) {
         this.itemName = itemName;
     }
 }
