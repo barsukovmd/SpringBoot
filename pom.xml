@@ -29,6 +29,7 @@
         <module>Lesson48</module>
         <module>Lesson48SoapClient</module>
         <module>Lesson49</module>
+        <module>E-storeFinal</module>
     </modules>
 
     <properties>
@@ -72,7 +73,7 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-maven-plugin</artifactId>
-            <version>9.19.1</version>
+            <version>9.20.0</version>
         </dependency>
 
     </dependencies>
@@ -81,7 +82,7 @@
             <plugin>
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
-                <version>9.19.1</version>
+                <version>9.20.0</version>
                 <configuration>
                     <user>postgres</user>
                     <password>Barsukov28071992</password>
