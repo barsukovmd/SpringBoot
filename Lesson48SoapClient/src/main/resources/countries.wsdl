@@ -59,9 +59,9 @@
             </wsdl:output>
         </wsdl:operation>
     </wsdl:binding>
-    <wsdl:service name="CountriesPortService">
+    <wsdl:com.teachmeskills.estore.service name="CountriesPortService">
         <wsdl:port binding="tns:CountriesPortSoap11" name="CountriesPortSoap11">
             <soap:address location="http://localhost:8080/ws"/>
         </wsdl:port>
-    </wsdl:service>
+    </wsdl:com.teachmeskills.estore.service>
 </wsdl:definitions>

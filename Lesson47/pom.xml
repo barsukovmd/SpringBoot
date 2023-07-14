@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from com.teachmeskills.estore.repository -->
     </parent>
     <groupId>tms.example</groupId>
     <version>0.0.1-SNAPSHOT</version>

@@ -63,9 +63,9 @@
     </dependency>
 
     <dependency>
-      <groupId>org.hibernate.validator</groupId>
-      <artifactId>hibernate-validator</artifactId>
-      <version>6.1.6.Final</version>
+        <groupId>org.hibernate.com.teachmeskills.estore.validator</groupId>
+        <artifactId>hibernate-com.teachmeskills.estore.validator</artifactId>
+        <version>6.1.6.Final</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
