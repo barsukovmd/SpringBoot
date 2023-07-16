@@ -11,6 +11,7 @@ import static com.teachmeskills.estore.utils.Constants.MAX_COMPLETION_TIME;
 
 @Component
 @Slf4j
+
 public class TimeLoggerInterceptor implements HandlerInterceptor {
 
     @Override

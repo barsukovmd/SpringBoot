@@ -10,7 +10,6 @@ import java.time.LocalDate;
 @EqualsAndHashCode
 @Builder
 public class UserDto {
-
     private Long id;
     private String login;
     private String name;

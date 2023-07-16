@@ -41,7 +41,7 @@ var nameValidityChecks = [
     {
         isInvalid: function (input) {
             var illegalCharacters = input.value.match(/[^a-zA-Z]/g);
-            return illegalCharacters ? true : false;
+            return !!illegalCharacters;
         },
         invalidityMessage: 'Only letters are allowed',
         element: document.querySelector(
@@ -60,7 +60,7 @@ var surnameValidityChecks = [
     {
         isInvalid: function (input) {
             var illegalCharacters = input.value.match(/[^a-zA-Z]/g);
-            return illegalCharacters ? true : false;
+            return !!illegalCharacters;
         },
         invalidityMessage: 'Only letters are allowed',
         element: document.querySelector(
@@ -71,7 +71,7 @@ var surnameValidityChecks = [
 function checkInput(input) {
     input.CustomValidation.invalidities = [];
     input.CustomValidation.checkValidity(input);
-    if (input.CustomValidation.invalidities.length == 0 && input.value != '') {
+    if (input.CustomValidation.invalidities.length === 0 && input.value !== '') {
         input.setCustomValidity('');
     } else {
         var message = input.CustomValidation.getInvalidities();

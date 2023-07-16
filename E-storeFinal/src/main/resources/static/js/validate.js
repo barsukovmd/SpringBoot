@@ -41,7 +41,7 @@ var loginValidityChecks = [
     {
         isInvalid: function (input) {
             var illegalCharacters = input.value.match(/[^a-zA-Z0-9]/g);
-            return illegalCharacters ? true : false;
+            return !!illegalCharacters;
         },
         invalidityMessage: 'Only letters and numbers are allowed',
         element: document.querySelector(
@@ -85,7 +85,7 @@ var passwordValidityChecks = [
 var passwordRepeatValidityChecks = [
     {
         isInvalid: function () {
-            return passwordRepeatInput.value != passwordInput.value;
+            return passwordRepeatInput.value !== passwordInput.value;
         },
         invalidityMessage: 'This password needs to match the first one'
     }
@@ -102,7 +102,7 @@ var nameValidityChecks = [
     {
         isInvalid: function (input) {
             var illegalCharacters = input.value.match(/[^a-zA-Z]/g);
-            return illegalCharacters ? true : false;
+            return !!illegalCharacters;
         },
         invalidityMessage: 'Only letters are allowed',
         element: document.querySelector(
@@ -133,7 +133,7 @@ var emailValidityChecks = [
         isInvalid: function (input) {
             var illegalCharacters = input.value.match(
                 /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/g);
-            return illegalCharacters ? false : true;
+            return !illegalCharacters;
         },
         invalidityMessage: 'Must comply with the standard of email addresses',
         element: document.querySelector(
@@ -155,7 +155,7 @@ var birthdayValidityChecks = [
 function checkInput(input) {
     input.CustomValidation.invalidities = [];
     input.CustomValidation.checkValidity(input);
-    if (input.CustomValidation.invalidities.length == 0 && input.value != '') {
+    if (input.CustomValidation.invalidities.length === 0 && input.value != '') {
         input.setCustomValidity('');
     } else {
         var message = input.CustomValidation.getInvalidities();

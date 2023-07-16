@@ -1,7 +1,6 @@
 package com.teachmeskills.estore.handler;
 
 import com.teachmeskills.estore.security.CustomUserDetail;
-import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +21,7 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
-                                        Authentication authentication) throws IOException, ServletException {
+                                        Authentication authentication) throws IOException {
         String userUuid = UUID.randomUUID().toString();
         MDC.put(CONVERSATION, userUuid);
         CustomUserDetail principal = (CustomUserDetail) authentication.getPrincipal();
