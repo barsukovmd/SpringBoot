@@ -1,6 +1,6 @@
 truncate table users cascade;
 
-create table roles
+create table if not exists roles
 (
     id   bigserial
         constraint roles_pk

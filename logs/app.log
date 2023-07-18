@@ -1,0 +1,534 @@
+[0m INFO- 23-07-18 19:08:15.603[m [35m20013:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:08:15.618[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20013 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:08:15.620[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:08:15.646[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:08:15.646[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:08:15.992[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:08:16.026[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 28 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:08:16.634[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:08:16.640[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:08:16.640[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:08:16.641[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:08:16.668[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:08:16.668[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1022 ms
+[m[0m INFO- 23-07-18 19:08:16.837[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Flyway Community Edition 9.19.1 by Redgate
+[m[0m INFO- 23-07-18 19:08:16.838[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: See release notes here: https://rd.gt/416ObMi
+[m[0m INFO- 23-07-18 19:08:16.838[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+[m[0m INFO- 23-07-18 19:08:16.847[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HikariPool-1 - Starting...
+[m[0m INFO- 23-07-18 19:08:16.943[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46341dfa
+[m[0m INFO- 23-07-18 19:08:16.944[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HikariPool-1 - Start completed.
+[m[0m INFO- 23-07-18 19:08:16.954[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Database: jdbc:postgresql://localhost:5432/c18-onl2022 (PostgreSQL 15.1)
+[m[0m INFO- 23-07-18 19:08:16.993[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Schema history table "online-store"."flyway_schema_history" does not exist yet
+[m[0m INFO- 23-07-18 19:08:16.996[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Successfully validated 11 migrations (execution time 00:00.024s)
+[m[0m INFO- 23-07-18 19:08:17.013[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Creating Schema History table "online-store"."flyway_schema_history" with baseline ...
+[m[0m INFO- 23-07-18 19:08:17.045[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Successfully baselined schema with version: 0
+[m[0m INFO- 23-07-18 19:08:17.082[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Current version of schema "online-store": 0
+[m[0m INFO- 23-07-18 19:08:17.087[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.0 - product category schema"
+[m[0m INFO- 23-07-18 19:08:17.091[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: drop cascades to constraint products_product_category_id_fk on table products
+[m[0m INFO- 23-07-18 19:08:17.115[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.1 - products schema"
+[m[0m INFO- 23-07-18 19:08:17.118[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: drop cascades to 2 other objects
+[m[0m INFO- 23-07-18 19:08:17.135[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.2 - users schema"
+[m[0m INFO- 23-07-18 19:08:17.136[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: drop cascades to 2 other objects
+[m[0m INFO- 23-07-18 19:08:17.147[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.3 - carts schema"
+[m[0m INFO- 23-07-18 19:08:17.156[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.4 - orders schema"
+[m[0m INFO- 23-07-18 19:08:17.158[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: drop cascades to constraint order_product_orders_id_fk on table order_product
+[m[0m INFO- 23-07-18 19:08:17.165[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.5 - order product schema"
+[m[0m INFO- 23-07-18 19:08:17.174[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.6 - users alter schema"
+[m[0m INFO- 23-07-18 19:08:17.178[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.7 - users orders recreate"
+[m[0m INFO- 23-07-18 19:08:17.190[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.8 - insert data"
+[m[0m INFO- 23-07-18 19:08:17.196[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "1.9 - fix insert data"
+[m[0m INFO- 23-07-18 19:08:17.201[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Migrating schema "online-store" to version "2.0 - add roles"
+[m[0m INFO- 23-07-18 19:08:17.204[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: truncate cascades to table "carts"
+[m[0m INFO- 23-07-18 19:08:17.204[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: truncate cascades to table "orders"
+[m[0m INFO- 23-07-18 19:08:17.205[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: DB: truncate cascades to table "order_product"
+[m[1;33m WARN- 23-07-18 19:08:17.205[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: DB: relation "roles" already exists, skipping (SQL State: 42P07 - Error Code: 0)
+[m[0m INFO- 23-07-18 19:08:17.210[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Successfully applied 11 migrations to schema "online-store", now at version v2.0 (execution time 00:00.140s)
+[m[0m INFO- 23-07-18 19:08:17.265[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HHH000204: Processing PersistenceUnitInfo [name: default]
+[m[0m INFO- 23-07-18 19:08:17.305[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HHH000412: Hibernate ORM core version 6.2.5.Final
+[m[0m INFO- 23-07-18 19:08:17.307[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HHH000406: Using bytecode reflection optimizer
+[m[0m INFO- 23-07-18 19:08:17.387[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HHH000021: Bytecode provider name : bytebuddy
+[m[0m INFO- 23-07-18 19:08:17.464[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No LoadTimeWeaver setup: ignoring JPA class transformer
+[m[0m INFO- 23-07-18 19:08:17.632[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HHH000021: Bytecode provider name : bytebuddy
+[m[0m INFO- 23-07-18 19:08:18.094[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[m[0m INFO- 23-07-18 19:08:18.096[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[m[0m INFO- 23-07-18 19:08:18.355[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Hibernate is in classpath; If applicable, HQL parser will be used.
+[m[1;33m WARN- 23-07-18 19:08:18.718[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[m[0m INFO- 23-07-18 19:08:18.977[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Exposing 1 endpoint(s) beneath base path '/actuator'
+[m[0m INFO- 23-07-18 19:08:19.016[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c3ef295, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fe608a2, org.springframework.security.web.context.SecurityContextHolderFilter@4b131e2, org.springframework.security.web.header.HeaderWriterFilter@758803fa, org.springframework.security.web.csrf.CsrfFilter@742f57c9, org.springframework.security.web.authentication.logout.LogoutFilter@3370b7f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6036bc12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a5d3649, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4033fd85, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2330f79f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@635dddd, org.springframework.security.web.access.ExceptionTranslationFilter@722b065d, org.springframework.security.web.access.intercept.AuthorizationFilter@66524565]
+[m[0m INFO- 23-07-18 19:08:19.244[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: LiveReload server is running on port 35729
+[m[0m INFO- 23-07-18 19:08:19.281[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:08:19.291[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat started on port(s): 8080 (http) with context path ''
+[m[0m INFO- 23-07-18 19:08:19.304[m [35m20013:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Started EshopSpringBootTestApplication in 3.904 seconds (process running for 4.433)
+[m[0m INFO- 23-07-18 19:08:19.825[m [35m20013:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(3)-192.168.1.141[0;39m  [0m: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[m[0m INFO- 23-07-18 19:08:19.825[m [35m20013:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(3)-192.168.1.141[0;39m  [0m: Initializing Servlet 'dispatcherServlet'
+[m[0m INFO- 23-07-18 19:08:19.826[m [35m20013:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(3)-192.168.1.141[0;39m  [0m: Completed initialization in 1 ms
+[m[0m INFO- 23-07-18 19:08:25.724[m [35m20013:[][0;39m[2m-[0;39m[2m[   File Watcher][0;39m [36m   File Watcher[0;39m  [0m: Restarting due to 172 class path changes (0 additions, 172 deletions, 0 modifications)
+[m[0m INFO- 23-07-18 19:08:27.730[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: Pausing ProtocolHandler ["http-nio-8080"]
+[m[1;33m WARN- 23-07-18 19:08:27.731[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [1;33m: Failed to unlock acceptor for [http-nio-8080] because the local address was not available
+[m[0m INFO- 23-07-18 19:08:27.731[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:08:27.732[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: Destroying Spring FrameworkServlet 'dispatcherServlet'
+[m[31mERROR- 23-07-18 19:08:27.730[m [35m20013:[][0;39m[2m-[0;39m[2m[o-8080-Acceptor][0;39m [36mhttp-nio-8080-Acceptor[0;39m  [31m: Socket accept failed
+
+java.nio.channels.AsynchronousCloseException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.end(ServerSocketChannelImpl.java:383) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:407) ~[?:?]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:521) ~[tomcat-embed-core-10.1.10.jar:10.1.10]
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79) ~[tomcat-embed-core-10.1.10.jar:10.1.10]
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:128) ~[tomcat-embed-core-10.1.10.jar:10.1.10]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+
+[m[0m INFO- 23-07-18 19:08:27.733[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: Stopping ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:08:27.736[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: Destroying ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:08:27.741[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: Closing JPA EntityManagerFactory for persistence unit 'default'
+[m[0m INFO- 23-07-18 19:08:27.744[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: HikariPool-1 - Shutdown initiated...
+[m[0m INFO- 23-07-18 19:08:27.747[m [35m20013:[][0;39m[2m-[0;39m[2m[       Thread-5][0;39m [36m       Thread-5[0;39m  [0m: HikariPool-1 - Shutdown completed.
+[m[0m INFO- 23-07-18 19:26:41.558[m [35m20452:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:26:41.573[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20452 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:26:41.575[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:26:41.599[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:26:41.599[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:26:41.947[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:26:41.978[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 26 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:26:42.583[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:26:42.589[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:26:42.590[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:26:42.590[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:26:42.621[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:26:42.621[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1021 ms
+[m[1;33m WARN- 23-07-18 19:26:42.791[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:26:42.793[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:26:42.806[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:26:42.817[m [35m20452:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m[0m INFO- 23-07-18 19:30:52.301[m [35m20533:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:30:52.315[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20533 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:30:52.317[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:30:52.345[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:30:52.345[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:30:52.699[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:30:52.734[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 30 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:30:53.336[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:30:53.342[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:30:53.343[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:30:53.343[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:30:53.372[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:30:53.372[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1027 ms
+[m[1;33m WARN- 23-07-18 19:30:53.537[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:30:53.539[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:30:53.552[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:30:53.563[m [35m20533:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m[0m INFO- 23-07-18 19:31:53.955[m [35m20576:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:31:53.969[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20576 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:31:53.971[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:31:53.997[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:31:53.998[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:31:54.351[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:31:54.376[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 21 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:31:54.984[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:31:54.990[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:31:54.991[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:31:54.991[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:31:55.022[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:31:55.023[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1025 ms
+[m[1;33m WARN- 23-07-18 19:31:55.178[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:31:55.179[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:31:55.192[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:31:55.202[m [35m20576:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m[0m INFO- 23-07-18 19:33:39.434[m [35m20623:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:33:39.447[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20623 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:33:39.449[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:33:39.474[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:33:39.475[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:33:39.826[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:33:39.854[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 22 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:33:40.449[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:33:40.455[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:33:40.456[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:33:40.456[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:33:40.486[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:33:40.486[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1011 ms
+[m[1;33m WARN- 23-07-18 19:33:40.644[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:33:40.646[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:33:40.659[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:33:40.669[m [35m20623:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m[0m INFO- 23-07-18 19:40:28.974[m [35m20821:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:40:28.989[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20821 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:40:28.990[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:40:29.015[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:40:29.015[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:40:29.372[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:40:29.402[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 25 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:40:30.022[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:40:30.027[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:40:30.028[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:40:30.028[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:40:30.055[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:40:30.055[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1040 ms
+[m[1;33m WARN- 23-07-18 19:40:30.207[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:40:30.208[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:40:30.221[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:40:30.232[m [35m20821:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m[0m INFO- 23-07-18 19:41:44.408[m [35m20869:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:41:44.422[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20869 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:41:44.423[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:41:44.447[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:41:44.448[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:41:44.810[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:41:44.842[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:41:45.447[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:41:45.452[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:41:45.453[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:41:45.453[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:41:45.484[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:41:45.484[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1036 ms
+[m[1;33m WARN- 23-07-18 19:41:45.646[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:41:45.648[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:41:45.661[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:41:45.672[m [35m20869:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m[0m INFO- 23-07-18 19:44:57.993[m [35m20931:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m  [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-18 19:44:58.008[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting EshopSpringBootTestApplication using Java 20.0.1 with PID 20931 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-18 19:44:58.010[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-18 19:44:58.036[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-18 19:44:58.036[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-18 19:44:58.403[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-18 19:44:58.432[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Finished Spring Data repository scanning in 24 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-18 19:44:59.029[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-18 19:44:59.034[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-18 19:44:59.035[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-18 19:44:59.035[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Starting Servlet engine: [Apache Tomcat/10.1.10]
+[m[0m INFO- 23-07-18 19:44:59.062[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-18 19:44:59.062[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Root WebApplicationContext: initialization completed in 1026 ms
+[m[1;33m WARN- 23-07-18 19:44:59.230[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [1;33m: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+[m[0m INFO- 23-07-18 19:44:59.231[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: Stopping service [Tomcat]
+[m[0m INFO- 23-07-18 19:44:59.245[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [0m: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[m[31mERROR- 23-07-18 19:44:59.255[m [35m20931:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m  [31m: Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.10.jar:6.0.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.1.jar:3.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.1.jar:3.1.1]
+	at com.tms.estore.EshopSpringBootTestApplication.main(EshopSpringBootTestApplication.java:14) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) [spring-boot-devtools-3.1.1.jar:3.1.1]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception with message: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+Caused by: java.lang.AbstractMethodError: Receiver class org.flywaydb.database.sqlserver.SQLServerConfigurationExtension does not define or inherit an implementation of the resolved method 'abstract void extractParametersFromConfiguration(java.util.Map)' of interface org.flywaydb.core.extensibility.ConfigurationExtension.
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1452) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configureFromConfigurationProviders(ClassicConfiguration.java:1830) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.configure(ClassicConfiguration.java:1387) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.ClassicConfiguration.<init>(ClassicConfiguration.java:194) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.Flyway.<init>(Flyway.java:112) ~[flyway-core-9.19.1.jar:?]
+	at org.flywaydb.core.api.configuration.FluentConfiguration.load(FluentConfiguration.java:59) ~[flyway-core-9.19.1.jar:?]
+	at org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$FlywayConfiguration.flyway(FlywayAutoConfiguration.java:155) ~[spring-boot-autoconfigure-3.1.1.jar:3.1.1]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.10.jar:6.0.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.10.jar:6.0.10]
+	... 24 more
+
+[m
