@@ -31,9 +31,9 @@
             </a>
         </th:block>
         <th:block sec:authorize="isAuthenticated()">
-            <h2 style="text-align: center; color: #e5a0a4; margin-right: 11%; text-shadow: 1px 1px 2px red, 0 0 1em #ff004d, 0 0 0.2em #ff0062;">
-                Welcome <span sec:authentication="name"></span><span
-                    th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">, our lord</span>
+            <h2 style="text-align: center; color: #e5a0a4; margin-right: 11%; text-shadow: 1px 1px 2px #00ff80, 0 0 1em #ff9100, 0 0 0.2em #0077ff;">
+                Welcome, Dear <span sec:authentication="name"></span><span
+                    th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">, administrator</span>
             </h2>
             <ul class="nav nav-pills ">
                 <li class="nav-item" th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">
