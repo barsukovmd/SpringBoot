@@ -23,7 +23,6 @@ import java.util.stream.Collectors;
 import static com.tms.estore.utils.Constants.*;
 import static com.tms.estore.utils.Constants.Attributes.*;
 import static com.tms.estore.utils.Constants.ControllerMappingPath.ADMIN_INFO;
-import static com.tms.estore.utils.Constants.MappingPath.PRODUCTS;
 import static com.tms.estore.utils.Constants.MappingPath.*;
 import static com.tms.estore.utils.Constants.RequestParameters.*;
 import static com.tms.estore.utils.ControllerUtils.*;
@@ -113,8 +112,8 @@ public class ShopFacade {
     }
 
     public List<ProductDto> getFavoriteProducts(Long id) {
-        List<CartDto> cartDtos = cartService.getSelectedProducts(id, Location.FAVORITE);
-        return cartDtos.stream()
+        List<CartDto> cartsDto = cartService.getSelectedProducts(id, Location.FAVORITE);
+        return cartsDto.stream()
                 .map(CartDto::getProductDto)
                 .collect(Collectors.toList());
     }
@@ -141,7 +140,7 @@ public class ShopFacade {
                     return productWithCount;
                 })
                 .toList();
-        modelAndView.addObject(PRODUCTS, productsWithCount);
+        modelAndView.addObject(Attributes.PRODUCTS, productsWithCount);
         modelAndView.setViewName(ADMIN_INFO);
         return modelAndView;
     }

@@ -18,5 +18,5 @@ public interface ProductMapper {
     @Mapping(target = "productCategory", expression = "java(new ProductCategory(dto.getCategory()))")
     Product convertToProduct(ProductDto productDto);
 
-    List<ProductDto> convertToProductDtos(List<Product> products);
+    List<ProductDto> convertToProductDto(List<Product> products);
 }

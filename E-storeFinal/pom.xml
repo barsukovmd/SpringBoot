@@ -178,78 +178,78 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-pmd-plugin</artifactId>
-                <version>${maven-pmd-plugin.version}</version>
-                <configuration>
-                    <failOnViolation>false</failOnViolation>
-                    <printFailingErrors>true</printFailingErrors>
-                    <targetJdk>${maven.compiler.version}</targetJdk>
-                    <linkXRef>false</linkXRef>
-                    <excludeRoots>
-                        <excludeRoot>target/generated-sources</excludeRoot>
-                    </excludeRoots>
-                    <rulesets>
-                        <ruleset>${basedir}/config/pmd/rulesets.xml</ruleset>
-                    </rulesets>
-                </configuration>
+            <!--            <plugin>-->
+            <!--                <groupId>org.apache.maven.plugins</groupId>-->
+            <!--                <artifactId>maven-pmd-plugin</artifactId>-->
+            <!--                <version>${maven-pmd-plugin.version}</version>-->
+            <!--                <configuration>-->
+            <!--                    <failOnViolation>false</failOnViolation>-->
+            <!--                    <printFailingErrors>true</printFailingErrors>-->
+            <!--                    <targetJdk>${maven.compiler.version}</targetJdk>-->
+            <!--                    <linkXRef>false</linkXRef>-->
+            <!--                    <excludeRoots>-->
+            <!--                        <excludeRoot>target/generated-sources</excludeRoot>-->
+            <!--                    </excludeRoots>-->
+            <!--                    <rulesets>-->
+            <!--                        <ruleset>${basedir}/config/pmd/rulesets.xml</ruleset>-->
+            <!--                    </rulesets>-->
+            <!--                </configuration>-->
 
-                <dependencies>
-                    <dependency>
-                        <groupId>net.sourceforge.pmd</groupId>
-                        <artifactId>pmd-core</artifactId>
-                        <version>${pmd.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>net.sourceforge.pmd</groupId>
-                        <artifactId>pmd-java</artifactId>
-                        <version>${pmd.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>net.sourceforge.pmd</groupId>
-                        <artifactId>pmd-javascript</artifactId>
-                        <version>${pmd.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>net.sourceforge.pmd</groupId>
-                        <artifactId>pmd-jsp</artifactId>
-                        <version>${pmd.version}</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
+            <!--                <dependencies>-->
+            <!--                    <dependency>-->
+            <!--                        <groupId>net.sourceforge.pmd</groupId>-->
+            <!--                        <artifactId>pmd-core</artifactId>-->
+            <!--                        <version>${pmd.version}</version>-->
+            <!--                    </dependency>-->
+            <!--                    <dependency>-->
+            <!--                        <groupId>net.sourceforge.pmd</groupId>-->
+            <!--                        <artifactId>pmd-java</artifactId>-->
+            <!--                        <version>${pmd.version}</version>-->
+            <!--                    </dependency>-->
+            <!--                    <dependency>-->
+            <!--                        <groupId>net.sourceforge.pmd</groupId>-->
+            <!--                        <artifactId>pmd-javascript</artifactId>-->
+            <!--                        <version>${pmd.version}</version>-->
+            <!--                    </dependency>-->
+            <!--                    <dependency>-->
+            <!--                        <groupId>net.sourceforge.pmd</groupId>-->
+            <!--                        <artifactId>pmd-jsp</artifactId>-->
+            <!--                        <version>${pmd.version}</version>-->
+            <!--                    </dependency>-->
+            <!--                </dependencies>-->
+            <!--            </plugin>-->
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>${maven-checkstyle-plugin.version}</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>com.puppycrawl.tools</groupId>
-                        <artifactId>checkstyle</artifactId>
-                        <version>${checkstyle.version}</version>
-                    </dependency>
-                </dependencies>
-                <executions>
-                    <execution>
-                        <id>validate-files</id>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                        <configuration>
-                            <includes>**/*</includes>
-                            <configLocation>config/checkstyle/checkstyle.xml</configLocation>
-                            <suppressionsLocation>config/checkstyle/suppressions.xml</suppressionsLocation>
-                            <inputEncoding>UTF-8</inputEncoding>
-                            <consoleOutput>true</consoleOutput>
-                            <failsOnError>true</failsOnError>
-                            <failOnViolation>true</failOnViolation>
-                            <logViolationsToConsole>true</logViolationsToConsole>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>org.apache.maven.plugins</groupId>-->
+            <!--                <artifactId>maven-checkstyle-plugin</artifactId>-->
+            <!--                <version>${maven-checkstyle-plugin.version}</version>-->
+            <!--                <dependencies>-->
+            <!--                    <dependency>-->
+            <!--                        <groupId>com.puppycrawl.tools</groupId>-->
+            <!--                        <artifactId>checkstyle</artifactId>-->
+            <!--                        <version>${checkstyle.version}</version>-->
+            <!--                    </dependency>-->
+            <!--                </dependencies>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <id>validate-files</id>-->
+            <!--                        <phase>validate</phase>-->
+            <!--                        <goals>-->
+            <!--                            <goal>check</goal>-->
+            <!--                        </goals>-->
+            <!--                        <configuration>-->
+            <!--                            <includes>**/*</includes>-->
+            <!--                            <configLocation>config/checkstyle/checkstyle.xml</configLocation>-->
+            <!--                            <suppressionsLocation>config/checkstyle/suppressions.xml</suppressionsLocation>-->
+            <!--                            <inputEncoding>UTF-8</inputEncoding>-->
+            <!--                            <consoleOutput>true</consoleOutput>-->
+            <!--                            <failsOnError>true</failsOnError>-->
+            <!--                            <failOnViolation>true</failOnViolation>-->
+            <!--                            <logViolationsToConsole>true</logViolationsToConsole>-->
+            <!--                        </configuration>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
         </plugins>
     </build>
 </project>

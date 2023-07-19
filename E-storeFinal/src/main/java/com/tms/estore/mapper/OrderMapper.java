@@ -9,6 +9,6 @@ import org.mapstruct.Mapping;
 public interface OrderMapper {
 
     @Mapping(source = "user", target = "userDto")
-    @Mapping(source = "products", target = "productDtos")
+    @Mapping(source = "products", target = "productDto")
     OrderDto convertToOrderDto(Order order);
 }

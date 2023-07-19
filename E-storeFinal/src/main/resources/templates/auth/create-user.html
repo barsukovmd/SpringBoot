@@ -40,7 +40,7 @@
                 <div style="color:red" th:if="${#fields.hasErrors('verifyPassword')}"
                      th:errors="*{verifyPassword}"></div>
                 <ul class="input-requirements">
-                    <li>Must repeat the password</li>
+                    <li>Must repeat the same password</li>
                 </ul>
             </label>
         </div>
@@ -82,7 +82,7 @@
                 <input type="date" name="birthday" required="" id="birthday">
                 <div style="color:red" th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}"></div>
                 <ul class="input-requirements">
-                    <li>The user must be over 18 years old</li>
+                    <li>The user must be over 21 years old</li>
                 </ul>
             </label>
         </div>

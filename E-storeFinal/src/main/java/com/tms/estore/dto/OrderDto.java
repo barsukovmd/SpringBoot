@@ -17,9 +17,9 @@ public class OrderDto {
     private String name;
     private LocalDate date;
     private UserDto userDto;
-    private List<ProductDto> productDtos;
+    private List<ProductDto> productDto;
 
-    public List<ProductDto> getProductDtos() {
-        return productDtos == null ? new ArrayList<>() : productDtos;
+    public List<ProductDto> getProductDto() {
+        return productDto == null ? new ArrayList<>() : productDto;
     }
 }

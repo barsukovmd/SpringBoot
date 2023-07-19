@@ -63,19 +63,19 @@ public class ProductServiceImpl implements ProductService {
     public Set<ProductDto> getFoundedProducts(String condition) {
         Set<Product> productsByConditionInName = productRepository.getProductsByConditionInName(condition);
         Set<Product> productsByConditionInInfo = productRepository.getProductsByConditionInInfo(condition);
-        Set<ProductDto> products = new LinkedHashSet<>(convertToProductDtos(productsByConditionInName));
-        products.addAll(convertToProductDtos(productsByConditionInInfo));
+        Set<ProductDto> products = new LinkedHashSet<>(convertToProductDto(productsByConditionInName));
+        products.addAll(convertToProductDto(productsByConditionInInfo));
         return products;
     }
 
     @Override
     public Set<ProductDto> selectAllProductsByFilter(BigDecimal minPrice, BigDecimal maxPrice) {
-        return convertToProductDtos(productRepository.selectAllProductsByFilter(minPrice, maxPrice));
+        return convertToProductDto(productRepository.selectAllProductsByFilter(minPrice, maxPrice));
     }
 
     @Override
     public Set<ProductDto> selectProductsFromCategoryByFilter(String category, BigDecimal minPrice, BigDecimal maxPrice) {
-        return convertToProductDtos(productRepository.selectProductsFromCategoryByFilter(category, minPrice, maxPrice));
+        return convertToProductDto(productRepository.selectProductsFromCategoryByFilter(category, minPrice, maxPrice));
     }
 
     @Override
@@ -98,7 +98,7 @@ public class ProductServiceImpl implements ProductService {
         return count;
     }
 
-    private Set<ProductDto> convertToProductDtos(Set<Product> convertedProducts) {
+    private Set<ProductDto> convertToProductDto(Set<Product> convertedProducts) {
         Set<ProductDto> products = new LinkedHashSet<>();
         for (Product product : convertedProducts) {
             products.add(productMapper.convertToProductDto(product));

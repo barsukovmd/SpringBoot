@@ -8,7 +8,7 @@
 <body>
 <th:block th:insert="~{/include/navigate}"/>
 <h1 class="text-center mt-2">Hello, administrator!</h1>
-<th:block th:if="${products != null}">
+<th:block th:if="${products!= null}">
     <th:block th:if="${products.size() > 0}">
         <table class="table table-sm table-dark w-75 ml-5 mt-5 rounded" style="text-align: center">
             <thead>

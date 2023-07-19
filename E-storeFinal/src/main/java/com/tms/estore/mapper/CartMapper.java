@@ -15,5 +15,5 @@ public interface CartMapper {
     @Mapping(source = "product.productCategory.category", target = "productDto.category")
     CartDto convertToCartDto(Cart cart);
 
-    List<CartDto> convertToCartDtos(List<Cart> carts);
+    List<CartDto> convertToCartDto(List<Cart> carts);
 }

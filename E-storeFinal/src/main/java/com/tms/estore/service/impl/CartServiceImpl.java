@@ -28,9 +28,9 @@ public class CartServiceImpl implements CartService {
     @Override
     public List<CartDto> getSelectedProducts(Long userId, Location location) {
         if (location.isCart()) {
-            return cartMapper.convertToCartDtos(cartRepository.getCartProducts(userId));
+            return cartMapper.convertToCartDto(cartRepository.getCartProducts(userId));
         } else {
-            return cartMapper.convertToCartDtos(cartRepository.getFavoriteProducts(userId));
+            return cartMapper.convertToCartDto(cartRepository.getFavoriteProducts(userId));
         }
     }
 
@@ -42,16 +42,16 @@ public class CartServiceImpl implements CartService {
 
     @Override
     public List<ProductDto> getPurchasedProducts(Long userId, Location location) {
-        List<ProductDto> productDtos = new ArrayList<>();
-        List<CartDto> carts = cartMapper.convertToCartDtos(cartRepository.getCartProducts(userId));
+        List<ProductDto> productDto = new ArrayList<>();
+        List<CartDto> carts = cartMapper.convertToCartDto(cartRepository.getCartProducts(userId));
         for (CartDto cart : carts) {
             Integer count = cart.getCount();
             while (count > 0) {
-                productDtos.add(cart.getProductDto());
+                productDto.add(cart.getProductDto());
                 count--;
             }
         }
-        return productDtos;
+        return productDto;
     }
 
     @Override
