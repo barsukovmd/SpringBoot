@@ -13,7 +13,7 @@ values ('ROLE_ADMIN'),
        ('ROLE_USER');
 
 alter table users
-    add role_id bigint not null default 0;
+    add role_id bigint not null;
 
 alter table users
     add constraint users_roles_id_fk
