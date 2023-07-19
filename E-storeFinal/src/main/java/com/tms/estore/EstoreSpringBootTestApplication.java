@@ -8,9 +8,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "com.tms.estore.repository")
-public class EshopSpringBootTestApplication {
+public class EstoreSpringBootTestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EshopSpringBootTestApplication.class, args);
+        SpringApplication.run(EstoreSpringBootTestApplication.class, args);
     }
 }

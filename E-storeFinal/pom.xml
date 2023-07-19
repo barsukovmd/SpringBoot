@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.1</version>
-        <relativePath/> <!-- lookup parent from com.teachmeskills.estore.repository -->
+        <version>3.0.6</version>
+        <relativePath/>
     </parent>
-    <groupId>e-store</groupId>
-    <artifactId>E-storeFinal</artifactId>
+    <groupId>com.tms</groupId>
+    <artifactId>estore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>E-storeFinal</name>
-    <description>E-storeFinal</description>
+    <name>EshopSpringBoot</name>
+    <description>EstoreSpringBootTestApplication</description>
 
     <properties>
         <java.version>20</java.version>
@@ -115,7 +115,6 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>9.19.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -135,12 +134,6 @@
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
             <version>${mapstruct.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-sqlserver -->
-        <dependency>
-            <groupId>org.flywaydb</groupId>
-            <artifactId>flyway-sqlserver</artifactId>
-            <version>9.20.1</version>
         </dependency>
     </dependencies>
 
@@ -178,9 +171,9 @@
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
-                        <arg>
+                        <compilerArg>
                             -Amapstruct.defaultComponentModel=spring
-                        </arg>
+                        </compilerArg>
                     </compilerArgs>
                 </configuration>
             </plugin>
@@ -200,30 +193,7 @@
                         <ruleset>${basedir}/config/pmd/rulesets.xml</ruleset>
                     </rulesets>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>pmd-check</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                        <configuration>
-                            <excludeFromFailureFile>${basedir}/config/pmd/exclude-pmd.properties
-                            </excludeFromFailureFile>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>pmd-cpd-check</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>cpd-check</goal>
-                        </goals>
-                        <configuration>
-                            <excludeFromFailureFile>${basedir}/config/pmd/exclude-cpd.properties
-                            </excludeFromFailureFile>
-                        </configuration>
-                    </execution>
-                </executions>
+
                 <dependencies>
                     <dependency>
                         <groupId>net.sourceforge.pmd</groupId>
@@ -247,26 +217,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            <plugin>
-                <groupId>com.github.spotbugs</groupId>
-                <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>${spotbugs-maven-plugin.version}</version>
-                <configuration>
-                    <effort>Max</effort>
-                    <threshold>Medium</threshold>
-                    <excludeFilterFile>${basedir}/config/spotbugs/spotbugs-exclude.xml</excludeFilterFile>
-                    <maxHeap>1024</maxHeap>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>spotbugs-check</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -298,35 +249,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-                <version>3.3.0</version>
-            </plugin>
-            <!-- https://mvnrepository.com/artifact/org.flywaydb/flyway-maven-plugin -->
-            <plugin>
-                <groupId>org.flywaydb</groupId>
-                <artifactId>flyway-maven-plugin</artifactId>
-                <version>9.20.1</version>
-                <configuration>
-                    <locations>
-                        <location>filesystem:./sql</location>
-                    </locations>
-                    <pluginConfiguration>
-                        <sqlserverKerberosLoginFile>/path/to/SQLJDBCDriver.conf</sqlserverKerberosLoginFile>
-                    </pluginConfiguration>
-                </configuration>
-
-            </plugin>
         </plugins>
     </build>
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-                <version>3.3.0</version>
-            </plugin>
-        </plugins>
-    </reporting>
 </project>
