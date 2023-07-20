@@ -15,13 +15,13 @@ public class HomeController {
 
     private final ShopFacade shopFacade;
 
-    @GetMapping(value = {"/", "/eshop"})
+    @GetMapping(value = {"/", "/estore"})
     public ModelAndView redirectToEshopPage(ModelAndView modelAndView) {
         shopFacade.getEshopView(modelAndView);
         return modelAndView;
     }
 
-    @PostMapping(value = {"/", "/eshop"})
+    @PostMapping(value = {"/", "/estore"})
     public ModelAndView entersToEshop(ModelAndView modelAndView) {
         shopFacade.getEshopView(modelAndView);
         return modelAndView;

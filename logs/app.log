@@ -15895,4 +15895,322 @@ java.lang.ClassCastException: cannot assign instance of java.lang.StackTraceElem
 [m[0m INFO- 23-07-19 16:59:42.652[m
             [35m34830:[c4509273-6e5c-4db7-8de3-98d7575b11f4][0;39m[2m-[0;39m[2m[nio-8080-exec-1][0;39m [36mhttp-nio-8080-exec-1[0;39m
             [0m: The user with a login tenniszh is logged in, has been assigned a UUID [c4509273-6e5c-4db7-8de3-98d7575b11f4]
+[m[1;33m WARN- 23-07-19 17:01:30.943[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s727ms).
+[m[1;33m WARN- 23-07-19 17:09:08.494[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m7s559ms).
+[m[1;33m WARN- 23-07-19 17:10:08.801[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m310ms).
+[m[1;33m WARN- 23-07-19 18:49:26.474[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m17s673ms).
+[m[1;33m WARN- 23-07-19 19:02:29.531[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m3s57ms).
+[m[1;33m WARN- 23-07-19 20:01:41.956[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m12s424ms).
+[m[1;33m WARN- 23-07-19 21:24:37.120[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s130ms).
+[m[1;33m WARN- 23-07-19 21:37:05.874[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m28s754ms).
+[m[1;33m WARN- 23-07-19 21:54:59.712[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m23s822ms).
+[m[1;33m WARN- 23-07-20 01:58:55.665[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m52s836ms).
+[m[1;33m WARN- 23-07-20 02:34:25.204[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s305ms).
+[m[1;33m WARN- 23-07-20 03:01:25.042[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m29s689ms).
+[m[1;33m WARN- 23-07-20 03:23:05.856[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m40s760ms).
+[m[1;33m WARN- 23-07-20 03:42:53.609[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m17s693ms).
+[m[1;33m WARN- 23-07-20 04:18:38.966[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m15s57ms).
+[m[1;33m WARN- 23-07-20 04:38:48.826[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m39s823ms).
+[m[1;33m WARN- 23-07-20 05:08:31.939[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m12s936ms).
+[m[1;33m WARN- 23-07-20 05:34:58.900[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m56s834ms).
+[m[1;33m WARN- 23-07-20 05:55:37.421[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m38s475ms).
+[m[1;33m WARN- 23-07-20 06:15:28.158[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m20s699ms).
+[m[1;33m WARN- 23-07-20 06:28:39.924[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m11s685ms).
+[m[1;33m WARN- 23-07-20 08:21:48.783[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h53m8s860ms).
+[m[1;33m WARN- 23-07-20 08:40:32.201[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[l-1 housekeeper][0;39m [36mHikariPool-1 housekeeper[0;39m
+            [1;33m: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m43s417ms).
+[m[0m INFO- 23-07-20 08:42:06.296[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[ionShutdownHook][0;39m [36mSpringApplicationShutdownHook[0;39m
+            [0m: Closing JPA EntityManagerFactory for persistence unit 'default'
+[m[0m INFO- 23-07-20 08:42:06.301[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[ionShutdownHook][0;39m [36mSpringApplicationShutdownHook[0;39m
+            [0m: HikariPool-1 - Shutdown initiated...
+[m[0m INFO- 23-07-20 08:42:06.303[m
+            [35m34830:[][0;39m[2m-[0;39m[2m[ionShutdownHook][0;39m [36mSpringApplicationShutdownHook[0;39m
+            [0m: HikariPool-1 - Shutdown completed.
+[m[0m INFO- 23-07-20 08:42:09.640[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m
+            [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-20 08:42:09.657[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting EstoreSpringBootTestApplication using Java 20.0.2 with PID 40565 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-20 08:42:09.659[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-20 08:42:09.685[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-20 08:42:09.685[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-20 08:42:10.039[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-20 08:42:10.071[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-20 08:42:10.599[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-20 08:42:10.605[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-20 08:42:10.605[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-20 08:42:10.606[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting Servlet engine: [Apache Tomcat/10.1.8]
+[m[0m INFO- 23-07-20 08:42:10.640[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-20 08:42:10.641[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Root WebApplicationContext: initialization completed in 956 ms
+[m[0m INFO- 23-07-20 08:42:10.778[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Flyway Community Edition 9.5.1 by Redgate
+[m[0m INFO- 23-07-20 08:42:10.779[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+[m[0m INFO- 23-07-20 08:42:10.779[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: 
+[m[0m INFO- 23-07-20 08:42:10.786[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HikariPool-1 - Starting...
+[m[0m INFO- 23-07-20 08:42:10.878[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27291d50
+[m[0m INFO- 23-07-20 08:42:10.879[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HikariPool-1 - Start completed.
+[m[0m INFO- 23-07-20 08:42:10.897[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 15.1)
+[m[0m INFO- 23-07-20 08:42:10.937[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Successfully validated 12 migrations (execution time 00:00.023s)
+[m[0m INFO- 23-07-20 08:42:10.976[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Current version of schema "public": 2.0
+[m[0m INFO- 23-07-20 08:42:10.977[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Schema "public" is up to date. No migration necessary.
+[m[0m INFO- 23-07-20 08:42:11.031[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000204: Processing PersistenceUnitInfo [name: default]
+[m[0m INFO- 23-07-20 08:42:11.066[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000412: Hibernate ORM core version 6.1.7.Final
+[m[0m INFO- 23-07-20 08:42:11.237[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[m[0m INFO- 23-07-20 08:42:11.733[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[m[0m INFO- 23-07-20 08:42:11.739[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[m[1;33m WARN- 23-07-20 08:42:12.230[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [1;33m: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[m[0m INFO- 23-07-20 08:42:12.435[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Exposing 1 endpoint(s) beneath base path '/actuator'
+[m[0m INFO- 23-07-20 08:42:12.468[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66b4fad4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27bc07ed, org.springframework.security.web.context.SecurityContextHolderFilter@4f277300, org.springframework.security.web.header.HeaderWriterFilter@11ff28d0, org.springframework.security.web.csrf.CsrfFilter@6450de7d, org.springframework.security.web.authentication.logout.LogoutFilter@4440bfce, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f6de770, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32a7b7f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33aaff0d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@399936f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5762d31d, org.springframework.security.web.access.ExceptionTranslationFilter@2b0b7f5c, org.springframework.security.web.access.intercept.AuthorizationFilter@6330fa71]
+[m[0m INFO- 23-07-20 08:42:12.624[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: LiveReload server is running on port 35729
+[m[0m INFO- 23-07-20 08:42:12.659[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-20 08:42:12.673[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Tomcat started on port(s): 8080 (http) with context path ''
+[m[0m INFO- 23-07-20 08:42:12.686[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Started EstoreSpringBootTestApplication in 3.256 seconds (process running for 3.746)
+[m[0m INFO- 23-07-20 08:42:13.258[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(1)-192.168.1.141[0;39m
+            [0m: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[m[0m INFO- 23-07-20 08:42:13.258[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(1)-192.168.1.141[0;39m
+            [0m: Initializing Servlet 'dispatcherServlet'
+[m[0m INFO- 23-07-20 08:42:13.259[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(1)-192.168.1.141[0;39m
+            [0m: Completed initialization in 1 ms
+[m[0m INFO- 23-07-20 08:42:18.892[m
+            [35m40565:[d3321753-8ed1-486b-9250-64c339fe61c2][0;39m[2m-[0;39m[2m[nio-8080-exec-5][0;39m [36mhttp-nio-8080-exec-5[0;39m
+            [0m: The user with a login tenniszh is logged in, has been assigned a UUID [d3321753-8ed1-486b-9250-64c339fe61c2]
+[m[0m INFO- 23-07-20 08:42:55.670[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[ionShutdownHook][0;39m [36mSpringApplicationShutdownHook[0;39m
+            [0m: Closing JPA EntityManagerFactory for persistence unit 'default'
+[m[0m INFO- 23-07-20 08:42:55.674[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[ionShutdownHook][0;39m [36mSpringApplicationShutdownHook[0;39m
+            [0m: HikariPool-1 - Shutdown initiated...
+[m[0m INFO- 23-07-20 08:42:55.675[m
+            [35m40565:[][0;39m[2m-[0;39m[2m[ionShutdownHook][0;39m [36mSpringApplicationShutdownHook[0;39m
+            [0m: HikariPool-1 - Shutdown completed.
+[m[0m INFO- 23-07-20 08:42:57.859[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[kground-preinit][0;39m [36mbackground-preinit[0;39m
+            [0m: HV000001: Hibernate Validator 8.0.0.Final
+[m[0m INFO- 23-07-20 08:42:57.873[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting EstoreSpringBootTestApplication using Java 20.0.2 with PID 40614 (/Users/yauhenbarsukov/IdeaProjects/SpringBoot/E-storeFinal/target/classes started by yauhenbarsukov in /Users/yauhenbarsukov/IdeaProjects/SpringBoot)
+[m[0m INFO- 23-07-20 08:42:57.875[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: No active profile set, falling back to 1 default profile: "default"
+[m[0m INFO- 23-07-20 08:42:57.899[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[m[0m INFO- 23-07-20 08:42:57.899[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[m[0m INFO- 23-07-20 08:42:58.226[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[m[0m INFO- 23-07-20 08:42:58.258[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Finished Spring Data repository scanning in 26 ms. Found 6 JPA repository interfaces.
+[m[0m INFO- 23-07-20 08:42:58.756[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Tomcat initialized with port(s): 8080 (http)
+[m[0m INFO- 23-07-20 08:42:58.761[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Initializing ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-20 08:42:58.761[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting service [Tomcat]
+[m[0m INFO- 23-07-20 08:42:58.761[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting Servlet engine: [Apache Tomcat/10.1.8]
+[m[0m INFO- 23-07-20 08:42:58.793[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Initializing Spring embedded WebApplicationContext
+[m[0m INFO- 23-07-20 08:42:58.794[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Root WebApplicationContext: initialization completed in 895 ms
+[m[0m INFO- 23-07-20 08:42:58.940[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Flyway Community Edition 9.5.1 by Redgate
+[m[0m INFO- 23-07-20 08:42:58.941[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.5.1
+[m[0m INFO- 23-07-20 08:42:58.941[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: 
+[m[0m INFO- 23-07-20 08:42:58.948[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HikariPool-1 - Starting...
+[m[0m INFO- 23-07-20 08:42:59.032[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@617889
+[m[0m INFO- 23-07-20 08:42:59.033[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HikariPool-1 - Start completed.
+[m[0m INFO- 23-07-20 08:42:59.043[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Database: jdbc:postgresql://localhost:5432/postgres (PostgreSQL 15.1)
+[m[0m INFO- 23-07-20 08:42:59.080[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Successfully validated 12 migrations (execution time 00:00.022s)
+[m[0m INFO- 23-07-20 08:42:59.113[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Current version of schema "public": 2.0
+[m[0m INFO- 23-07-20 08:42:59.113[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Schema "public" is up to date. No migration necessary.
+[m[0m INFO- 23-07-20 08:42:59.165[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000204: Processing PersistenceUnitInfo [name: default]
+[m[0m INFO- 23-07-20 08:42:59.195[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000412: Hibernate ORM core version 6.1.7.Final
+[m[0m INFO- 23-07-20 08:42:59.351[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[m[0m INFO- 23-07-20 08:42:59.853[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[m[0m INFO- 23-07-20 08:42:59.858[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[m[1;33m WARN- 23-07-20 08:43:00.362[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [1;33m: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[m[0m INFO- 23-07-20 08:43:00.573[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Exposing 1 endpoint(s) beneath base path '/actuator'
+[m[0m INFO- 23-07-20 08:43:00.610[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6dcae75c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c33dc96, org.springframework.security.web.context.SecurityContextHolderFilter@2941f367, org.springframework.security.web.header.HeaderWriterFilter@728b739f, org.springframework.security.web.csrf.CsrfFilter@4bbe2608, org.springframework.security.web.authentication.logout.LogoutFilter@74ad8bea, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a57cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2670e3b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61727e35, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@57ea9bd2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f04fcc9, org.springframework.security.web.access.ExceptionTranslationFilter@3e72d796, org.springframework.security.web.access.intercept.AuthorizationFilter@35ebb4aa]
+[m[0m INFO- 23-07-20 08:43:00.780[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: LiveReload server is running on port 35729
+[m[0m INFO- 23-07-20 08:43:00.820[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Starting ProtocolHandler ["http-nio-8080"]
+[m[0m INFO- 23-07-20 08:43:00.831[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Tomcat started on port(s): 8080 (http) with context path ''
+[m[0m INFO- 23-07-20 08:43:00.844[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[  restartedMain][0;39m [36m  restartedMain[0;39m
+            [0m: Started EstoreSpringBootTestApplication in 3.173 seconds (process running for 3.586)
+[m[0m INFO- 23-07-20 08:43:01.019[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(3)-192.168.1.141[0;39m
+            [0m: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[m[0m INFO- 23-07-20 08:43:01.020[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(3)-192.168.1.141[0;39m
+            [0m: Initializing Servlet 'dispatcherServlet'
+[m[0m INFO- 23-07-20 08:43:01.021[m
+            [35m40614:[][0;39m[2m-[0;39m[2m[)-192.168.1.141][0;39m [36mRMI TCP Connection(3)-192.168.1.141[0;39m
+            [0m: Completed initialization in 1 ms
 [m
