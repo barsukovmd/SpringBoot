@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-import static com.tms.estore.utils.Constants.ControllerMappingPath.ESHOP;
+import static com.tms.estore.utils.Constants.ControllerMappingPath.ESTORE;
 
 @Component
 @Slf4j
@@ -22,6 +22,6 @@ public class CustomLogoutHandler implements LogoutSuccessHandler {
                                 Authentication authentication) throws IOException, ServletException {
         CustomUserDetail principal = (CustomUserDetail) authentication.getPrincipal();
         log.info("The user with a login " + principal.getUser().getLogin() + " logged out.");
-        response.sendRedirect(ESHOP);
+        response.sendRedirect(ESTORE);
     }
 }

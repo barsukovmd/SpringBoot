@@ -25,7 +25,7 @@ public class Constants {
     @UtilityClass
     public class MappingPath {
 
-        public static final String ESHOP = "home/eshop";
+        public static final String ESHOP = "home/estore";
         public static final String PRODUCTS = "product/products";
         public static final String PRODUCT = "product/product";
         public static final String LOGIN = "auth/login";
@@ -41,7 +41,7 @@ public class Constants {
         public static final String ERROR_403 = "error/error-403";
         public static final String SOME_ERROR = "error/some-error";
         public static final String REDIRECT_TO_CART = "redirect:/cart";
-        public static final String REDIRECT_TO_ESHOP = "redirect:/eshop";
+        public static final String REDIRECT_TO_ESHOP = "redirect:/estore";
         public static final String REDIRECT_TO_ADMIN = "redirect:/admin";
         public static final String REDIRECT_TO_ACCOUNT = "redirect:/account";
         public static final String REDIRECT_TO_ERROR_500 = "redirect:/error-500";
@@ -55,7 +55,7 @@ public class Constants {
 
     @UtilityClass
     public class ControllerMappingPath {
-        public static final String ESHOP = "/eshop";
+        public static final String ESTORE = "/estore";
         public static final String ROOT = "/";
         public static final String ADMIN = "/admin";
         public static final String ADMIN_INFO = "/admin/info";

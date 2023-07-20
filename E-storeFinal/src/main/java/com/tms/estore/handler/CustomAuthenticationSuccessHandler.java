@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 import static com.tms.estore.utils.Constants.CONVERSATION;
-import static com.tms.estore.utils.Constants.ControllerMappingPath.ESHOP;
+import static com.tms.estore.utils.Constants.ControllerMappingPath.ESTORE;
 
 @Component
 @Slf4j
@@ -27,6 +27,6 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
         MDC.put(CONVERSATION, userUuid);
         CustomUserDetail principal = (CustomUserDetail) authentication.getPrincipal();
         log.info("The user with a login " + principal.getUser().getLogin() + " is logged in, has been assigned a UUID [" + userUuid + "]");
-        response.sendRedirect(ESHOP);
+        response.sendRedirect(ESTORE);
     }
 }
