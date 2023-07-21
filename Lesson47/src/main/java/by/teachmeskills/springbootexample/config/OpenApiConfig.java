@@ -28,9 +28,9 @@ public class OpenApiConfig {
                         .contact(new Contact().name("TeachMeSkills")
                                 .email("tms@gmail.com")))
                 .servers(List.of(new Server().url("http://localhost:8080")
-                                .description("Local service"),
+                                .description("Local com.teachmeskills.estore.service"),
                         new Server().url("http://localhost:8082")
-                                .description("Beta service")));
+                                .description("Beta com.teachmeskills.estore.service")));
     }
 }
 

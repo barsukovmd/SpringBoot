@@ -42,6 +42,61 @@
       </set>
     </option>
   </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="jakarta.validation.constraints.NotNull" />
+    <option name="myNullables">
+      <value>
+        <list size="16">
+          <item index="0" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="org.jspecify.nullness.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="4" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="5" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="10" class="java.lang.String" itemvalue="jakarta.annotation.Nullable" />
+          <item index="11" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="12" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="14" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="15" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="17">
+          <item index="0" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="1" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="2" class="java.lang.String" itemvalue="jakarta.annotation.Nonnull" />
+          <item index="3" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="6" class="java.lang.String" itemvalue="lombok.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="jakarta.validation.constraints.NotNull" />
+          <item index="9" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="10" class="java.lang.String" itemvalue="org.jspecify.nullness.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="14" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="15" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="16" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://pmd.sourceforge.net/ruleset/2.0.0" location="$PROJECT_DIR$" />
+    <resource url="https://checkstyle.org/dtds/configuration_1_3.dtd" location="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2023.1/extResources/385f0dd3_configuration_1_3.dtd" />
+    <resource url="https://checkstyle.org/dtds/suppressions_1_2.dtd" location="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2023.1/extResources/c4ff3eba_suppressions_1_2.dtd" />
+    <resource url="https://pmd.sourceforge.net/ruleset_2_0_0.xsd" location="$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2023.1/extResources/709a614c_ruleset_2_0_0.xsd" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
